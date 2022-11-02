@@ -1,0 +1,689 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.preview{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7px;
+    align-items: center;
+    height: 50px;
+    background: black;
+    box-shadow: 2px 2px 10px black;
+    border-bottom: 1px solid gray;
+}
+.logo-a{
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.logo-a p{
+    color: green;
+}
+
+
+.btn-by{
+    padding: 10px;
+    border-radius: 1px;
+    background-color: lime;
+    color: white;
+    text-transform: capitalize;
+}
+.btn{
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.top-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    color: white;
+    background: black;
+    height: 50px;
+    align-items: center;
+    text-transform: capitalize;
+}
+span img{
+    height: 35px;
+}
+.title{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.title span{
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 0 50px;
+
+}
+.should{
+    height: 20px;
+    background: red;
+    text-transform: capitalize;
+    color: blue;
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner{
+    display: flex;
+    height: 450px;
+    justify-content: space-between;
+    background-image: url(images/agros-img-18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: inherit;
+    z-index: 20px;
+    padding: 0 20px;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.child h1{
+    color: white;
+    font-size: 55px;
+    text-transform: uppercase;
+
+    
+}
+.child p{
+    color: white;
+}
+button:hover{
+    background-color: orange;
+}
+button{
+    width: 200px;
+    padding: 20px;
+    text-transform: uppercase;
+    background: transparent;
+    transition: none 0s ease 0s;
+    white-space: nowrap;
+    color: yellow;
+    font-weight: 900;
+    font-family: roboto;
+    border-style: solid;
+    opacity: 1;
+    cursor: pointer;
+    border-color: yellow;
+}
+.children{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    letter-spacing: 1px;
+}
+.children h3{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.children span{
+    color: orange;
+    font-size: 15px;
+    text-transform: lowercase;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    background-color:rgb(212, 203, 203);
+    height: 300px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border: 30px solid white;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.14);
+    border-radius: 5px;
+}
+.card img{
+    height: 70px;
+}
+.card h1{
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card p{
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    min-height: 700px;
+    margin-top: 80px;
+    gap: 40px;
+    padding: 0 60px;
+    justify-content: center;
+}
+.service img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+.layout{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h3{
+    color: #a3b0b4;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+h1{
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+}
+p{
+    color: #a3b0b4;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: lowercase;
+}
+.guarantee-c h2{
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.guarantee{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.guarantee-c img{
+    height: 60px;
+}
+.guarantee-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 30px;
+    height: 100px;
+    width: 500px;
+    box-shadow: 7px 3px 2px 4px rgba(0, 0, 0, 0.14);
+}
+.ask{
+    display: flex;
+    height: 500px;
+    justify-content: end;
+    gap: 60px;
+
+}
+h6{
+    color: orange;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+h5{
+    color: white;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.ask img{
+    height: 700px;
+    width: 900px;
+    margin-right: 200px;
+    margin-top: -140px;
+}
+.card-a{
+    display: flex;
+    margin-top: -100px;
+    position: relative;
+    flex-direction: column;
+    height: 700px;
+    width: 1000px;
+    margin-left: -400px;
+    background: black;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+.card-a h4{
+    font-size: 25px;
+}
+.card-a p{
+    display: flex;
+    align-items: baseline;
+    padding-left: -20px;
+    font-size: 20px;
+}
+h4{
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.face{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.face img{
+    height: 50px;
+    width: 50px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.when{
+    height: 900px;
+    background: url(images/agros-img-23.jpg);
+    position: absolute;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.call p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    text-transform: capitalize;
+    gap: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.card-r{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(35, 35, 35, 0.8);
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+}
+.card-t:hover{
+    background-color: goldenrod ;
+}
+.card-t{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(35, 35, 35, 0.8);
+    height: 300px;
+    width: 400px;
+    margin-top: -90px;
+}
+.card-r img{
+    height: 70px;
+}
+ 
+.card-r h1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-r p{
+    display: flex;
+    text-align: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.card-t img{
+    height: 70px;
+}
+.card-t h1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-t p{
+    display: flex;
+    text-align: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+/* .idiot{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+
+    
+}
+.everyday{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 30px;
+}
+.everyday div img{
+    width: 100%;
+}
+
+.mumu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+
+}
+.mumu h1{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mumu p{
+    color: gray;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+} */
+.everyday img{
+    height: 600px;
+    /* width: 600px; */
+}
+.farm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(35, 35, 35, 0.8);
+    opacity: 0.5;
+}
+.eba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.eba h5{
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.eba p{
+    color: #a3b0b4;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ak{
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    gap: 20px;
+    padding-top: 550px;
+    padding-left:200px;
+    color: white;
+}
+.coded{
+    display: flex;
+    height: 800px;
+    background: url(images/agros-img-22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(35, 35, 35, 0.8);
+    height: 300px;
+    width: 300px;
+
+    
+}
+.card-p p{
+    font-size: 25px;
+    text-transform: lowercase;
+    margin-bottom: 40px;
+    padding: 0 5px;
+}
+.card-p hr{
+    box-sizing: content-box;
+    height: 0px;
+    color: rgba(35, 35, 35, 0.8);
+    width: 440px;
+    overflow: visible;
+    border-top: 1px solid rgba(8, 2, 2, 0.2);
+    margin: 25px 0px;
+    margin-top: -15px;
+
+}
+.card-p i{
+    color: orange;
+    font-size: 50px;
+    padding-right: 400px;
+    padding-bottom: 20px;
+}
+.card-p img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border:  1px solid white;
+}
+.card-p span{
+    color: white;
+}
+.card-p h4{
+    color: orange;
+}
+.color{
+    display: flex;
+    margin-left:-215px ;
+    gap: 30px;
+}
+.boi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    margin-right: 900px;
+}
+.muhammed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+.muhammed img{
+    height: 100px;
+    width: 100px;
+}
+.disk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.muhammed h3{
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.muhammed p{
+    color: aliceblue;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.boss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 500px;
+    margin-top: 60px;
+}
+
+.boss h4{
+    color: black;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+.boss p{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.card-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:3px solid gray;
+    box-shadow: 2px 2px 2px 3px gray;
+    /* width: 500px; */
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.card-l h2{
+    color: gray;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.card-l p{
+    color: black;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.solo{
+    display: flex;
+    gap:0px;
+}
+.pablo{
+    display: flex;
+    margin-top: 60px;
+}
+.pablo img{
+    height: 70px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.pablo h4{
+    color: orange;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.pablo span{
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.pablo-r img{
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+}
+.one{
+    background: skyblue;
+    /* height: 100px;
+    width: 500px; */
+    grid-column: 1/3;
+    grid-row: 1;
+}
+.two{
+    background: skyblue;
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+.three{
+    background: skyblue;
+    grid-column: 1;
+    grid-row: 2/5;
+}
+.four{
+    background: skyblue;
+    grid-column: 3;
+    grid-row: 3;
+}
+.five{
+    background: skyblue;
+        grid-column: 2;
+        grid-row: 4;
+      }
+.six {
+    background: skyblue;
+        grid-column: 3;
+        grid-row: 4;
+      }
+      
